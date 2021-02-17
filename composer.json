@@ -1,0 +1,30 @@
+{
+    "name": "hfechs/rulez",
+    "description": "ACL library for PHP.",
+    "type": "library",
+    "license": "WTFPL3.1",
+    "authors": [
+        {
+            "name": "Václav Švirga (HFechs)",
+            "role": "author",
+            "email": "svirga@gmail.com"
+        }
+    ],
+    "require": {
+	    "php": ">=7.3.0"
+    },
+    "require-dev": {
+        "nette/tester": "^2.0",
+        "phpstan/phpstan": "^0.12.77"
+    },    
+    "autoload": {
+        "psr-4": {
+            "HFechs\\Rulez\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HFechs\\Rulez\\": "tests/"
+        }
+    }    
+}
