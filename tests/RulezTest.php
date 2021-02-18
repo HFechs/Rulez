@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace HFechs\Rulez;
+namespace HFechs\Rulez\Tests;
 
 use Tester\Assert;
 use Tester\TestCase;
@@ -23,7 +23,7 @@ use HFechs\Rulez\Defs\IRoleRepository;
 use HFechs\Rulez\Defs\IUser;
 use HFechs\Rulez\Rulez;
 
-require "bootstrap.php";
+require __DIR__ . '/bootstrap.php';
 
 class RulezTest extends TestCase
 {
