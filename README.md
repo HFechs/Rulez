@@ -71,9 +71,11 @@ if (!$rulez->isAllowed(Right::R_EDIT, $article, $user)) {
 ## More
 
 Please be patient - I have the completion of the documentation in todo. 
+
 Meanwhile you can explore tests/RulezTest.php.
 
 
 # License
 WTFPL 3.1
+
 Copyright (c) 2021 Václav Švirga (HFechs) <svirga@gmail.com>
