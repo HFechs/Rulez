@@ -5,14 +5,14 @@ Rulez is ACL library for PHP.
 
 * The library is small and simple.
 * You can have ACL defined statically (in code) or dynamically (in DB for example).
-* It doesn't care storage/DB/ORM library. The repository with rules is the interface, the implementation of repositories is up to you.
-* Every resources are objects - compatible with ORM.
-* ACL works with the user, its roles, resources and rights.
-* User's resource (user owns it) can have special rights.
-* The user can have more roles than one and user's roles can depends on the resource (you can implement tree of resources or ACL based on labels).
+* It doesn't care about the storage/DB/ORM library. There is an interface for repositories with rules. The implementation is up to you.
+* All resources are objects - compatible with ORM.
+* ACL works in terms of users, their roles, resources and rights.
+* User's owned resource can have special rights.
+* A user can have more than one roles and a user role can depend on a  resource (you can implement a tree of resources or ACL based on labels).
 * Basic rights are list, show, edit, add, delete.
-* Rights can form a hiearchy - you can define the right that inherit from other right.
-* If you use dynamical rights (from DB), library supports a cache.
+* Rights can form a hierarchy - you can define a right that inherits from other rights.
+* If you use dynamical rights (from DB), the library supports caching.
 
 # Installation 
 
