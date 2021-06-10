@@ -54,6 +54,14 @@ class Rulez
     }
 
     /**
+     * Return roles authorizator.
+     */
+    public function getRolesAuthorizator(): RolesAuthorizator
+    {
+        return $this->rolesAuthorizator;
+    }
+
+    /**
      * Set result cache.
      */
     public function setResultCache(?IResultCache $cache): void
