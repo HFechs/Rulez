@@ -76,10 +76,6 @@ final class UserAuthorizator
         }
 
         if ($parentResource) {
-            if ($resource instanceof IResource) {
-                throw new \InvalidArgumentException("Resource can't be object if you use parent entity.");
-            }
-
             //User and parent entity doesn't have same company
             if (!$this->resourceManager->hasUserSameSpaceAsResource($user, $parentResource)) {
                 return false;
